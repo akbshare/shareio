@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class MaxMinArrayDemo {
     public static void main(String[] args) {
         largestAndSmallest(new int[]{-10,10,20,5,-20,50});
+        largestAndSmallest(new int[]{1,2,3});
     }
 
     private static void largestAndSmallest(int[] ints) {
@@ -13,7 +14,8 @@ public class MaxMinArrayDemo {
         for(int i:ints){
             if(i > largest){
                 largest = i;
-            } else if(i < smallest){
+            }
+            if(i < smallest){
                 smallest = i;
             }
         }
