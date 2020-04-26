@@ -1,7 +1,5 @@
 package com.share.lambdas;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 public class CalculationEngine {
     final static double[] EXPECTED_SALES_JAN_TO_DEC =
             new double[] { 42.6, 50, 48, 49, 43, 41, 45, 44, 46, 45.7, 48.4, 44.5
